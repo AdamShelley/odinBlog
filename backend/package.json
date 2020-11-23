@@ -1,0 +1,22 @@
+{
+  "name": "blog-api-backend",
+  "version": "1.0.0",
+  "description": "Backend API for a blog website (Odin Project)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Adam Shelley",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.0"
+  }
+}
